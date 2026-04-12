@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  --color-cream: #F5F0E8;
+  --color-warm-white: #FAF6F0;
+  --color-sage: #B8C8B8;
+  --color-deep-sage: #508060;
+  --color-earth: #C4A4A0;
+  --color-warm-tan: #B89898;
+  --color-bark: #384028;
+  --color-sky: #8FA5B0;
+  --color-text: #384028;
+  --color-muted: #6B6860;
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-lato);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-text);
+  font-family: var(--font-body), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-warm-tan);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-earth);
+}

@@ -1,0 +1,6 @@
+services:
+  coos-and-roos:
+    build: .
+    ports:
+      - "3100:3100"
+    restart: unless-stopped
