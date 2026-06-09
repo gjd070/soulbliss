@@ -57,7 +57,7 @@ export default function Footer() {
             </ul>
             <div className="mt-6">
               <a
-                href="https://www.airbnb.com.au"
+                href="https://stayportstephens.com.au/accommodation/?property=soul-bliss-at-shoal-bay-&postId=243591&adults=1&arrival=Arrival&departure=Departure&shem=rimspwouoe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full bg-deep-sage px-6 py-2.5 text-sm font-bold text-cream transition-all hover:bg-sage hover:text-bark"

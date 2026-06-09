@@ -107,7 +107,7 @@ export default function AboutPage() {
             {/* Image */}
             <div className="relative h-[400px] overflow-hidden rounded-2xl lg:h-[550px]">
               <Image
-                src="https://res.cloudinary.com/dwqcks4ar/image/upload/c_fill,w_1920,h_1080,q_auto,f_auto/awp9jpyvpqykzgxlwdkp.jpg"
+                src="/images/garden.jpg"
                 alt="Soul Bliss holiday home exterior with coastal garden and views"
                 fill
                 className="object-cover"

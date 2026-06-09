@@ -103,7 +103,7 @@ export default function Home() {
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://res.cloudinary.com/dwqcks4ar/image/upload/c_fill,w_1920,h_1080,q_auto,f_auto/t4bfe7skdv01xrumbcol.jpg"
+            src="/images/hero.jpg"
             alt="Soul Bliss coastal holiday home at Shoal Bay, Port Stephens NSW"
             fill
             className="object-cover"
@@ -126,7 +126,7 @@ export default function Home() {
           </p>
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href="https://www.airbnb.com.au"
+              href="https://stayportstephens.com.au/accommodation/?property=soul-bliss-at-shoal-bay-&postId=243591&adults=1&arrival=Arrival&departure=Departure&shem=rimspwouoe"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-deep-sage px-8 py-3.5 text-base font-bold text-cream transition-all hover:bg-bark hover:shadow-lg"
@@ -203,7 +203,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="relative min-h-[300px] lg:min-h-[450px]">
                 <Image
-                  src="https://res.cloudinary.com/dwqcks4ar/image/upload/c_fill,w_1920,h_1080,q_auto,f_auto/udk6cctiwmgfuvjxlfid.jpg"
+                  src="/images/verandah.jpg"
                   alt="Soul Bliss beach house interior — light-filled living space with coastal views"
                   fill
                   className="object-cover"
@@ -242,7 +242,7 @@ export default function Home() {
 
                 <div className="mt-8">
                   <a
-                    href="https://www.airbnb.com.au"
+                    href="https://stayportstephens.com.au/accommodation/?property=soul-bliss-at-shoal-bay-&postId=243591&adults=1&arrival=Arrival&departure=Departure&shem=rimspwouoe"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block rounded-full bg-deep-sage px-8 py-3 text-sm font-bold text-cream transition-all hover:bg-bark hover:shadow-md"

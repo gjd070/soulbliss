@@ -52,7 +52,7 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="https://www.airbnb.com.au"
+              href="https://stayportstephens.com.au/accommodation/?property=soul-bliss-at-shoal-bay-&postId=243591&adults=1&arrival=Arrival&departure=Departure&shem=rimspwouoe"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-deep-sage px-6 py-2.5 text-sm font-bold text-cream transition-all hover:bg-bark hover:shadow-md"
@@ -112,7 +112,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="https://www.airbnb.com.au"
+            href="https://stayportstephens.com.au/accommodation/?property=soul-bliss-at-shoal-bay-&postId=243591&adults=1&arrival=Arrival&departure=Departure&shem=rimspwouoe"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 block w-full rounded-full bg-deep-sage px-6 py-3 text-center text-sm font-bold text-cream transition-all hover:bg-bark"
