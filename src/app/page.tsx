@@ -103,7 +103,7 @@ export default function Home() {
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero.jpg"
+            src="/images/garden.jpg"
             alt="Soul Bliss coastal holiday home at Shoal Bay, Port Stephens NSW"
             fill
             className="object-cover"
