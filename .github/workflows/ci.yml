@@ -26,8 +26,4 @@ jobs:
         run: npm run lint
 
       - name: Build
-        env:
-          CLOUDINARY_CLOUD_NAME: dwqcks4ar
-          CLOUDINARY_API_KEY: "746349943369247"
-          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
         run: npm run build
